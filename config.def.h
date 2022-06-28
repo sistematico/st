@@ -5,8 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Ubuntu Mono:size=12:antialias=true:autohint=true";
-static int borderpx = 12;
+//static char *font = "Ubuntu Mono:size=12:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:size=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"JetBrainsMono Nerd Font Mono:pixelsize=12:antialias=true:autohint=true",
+	"UbuntuMono Nerd Font Mono:pixelsize=12:antialias=true:autohint=true",
+};
+static int borderpx = 14;
 
 /*
  * What program is execed by st depends of these precedence rules:
